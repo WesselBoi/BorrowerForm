@@ -46,7 +46,7 @@ function BorrowForm() {
     setSuccess("");
     try {
       setLoading(true);
-      const response = await fetch("http://localhost:8001/api/submitForm", {
+      const response = await fetch(`${import.meta.env.VITE_SERVER_URL}/api/submitForm`, {
         method: "POST",
         credentials: "include",
         headers: {
