@@ -14,7 +14,7 @@ connectToMongoDb();
 const app = express();
 
 app.use(cors({
-    origin: process.env.CLIENT_URL || "borrowerformfrontend.onrender.com",
+    origin: process.env.CLIENT_URL || "https://borrowerformfrontend.onrender.com",
     credentials: true, // Allow credentials (cookies, authorization headers, etc.)
 }));
 
