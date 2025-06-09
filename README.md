@@ -123,35 +123,6 @@ A modern, full-stack loan application platform built with React and Node.js. The
 - **CORS Protection**: Configured for secure cross-origin requests
 - **Input Validation**: Server-side validation for all endpoints
 
-### Database Models
-
-#### User Model
-```javascript
-{
-  username: String,
-  email: String (unique),
-  password: String (hashed),
-  timestamps: true
-}
-```
-
-#### Loan Application Model
-```javascript
-{
-  name: String,
-  email: String,
-  phone: Number,
-  ResidenceType: String,
-  MonthlyIncome: Number,
-  PreviousLoan: String,
-  MaritalStatus: String,
-  NoOfDependancies: Number,
-  City: String,
-  State: String,
-  LoanAmount: Number,
-  LoanPurpose: String
-}
-```
 
 ## 🔧 Available Scripts
 
@@ -163,18 +134,3 @@ A modern, full-stack loan application platform built with React and Node.js. The
 ### Server
 - `npm start` - Start production server
 - `npm run dev` - Start development server with nodemon
-
-## 🎯 Usage
-
-1. **Registration**: Create a new account with username, email, and password
-2. **Login**: Authenticate with email and password
-3. **Apply for Loan**: Fill out the comprehensive loan application form
-4. **Track Status**: Receive confirmation upon successful submission
-
-## 🔒 Security Features
-
-- JWT-based authentication with HTTP-only cookies
-- Password hashing with salt rounds
-- CORS configuration for secure cross-origin requests
-- Input validation and sanitization
-- Secure environment variable handling
