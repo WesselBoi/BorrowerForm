@@ -4,7 +4,7 @@ A modern, full-stack loan application platform built with React and Node.js. The
 
 ## 🚀 Features
 
-- **User Authentication**: Secure registration and login system with JWT tokens
+- **User Authentication**: Secure registration and login system with JWT tokens (*Inactive for now*)
 - **Loan Application**: Comprehensive form for loan applications with validation
 - **Responsive Design**: Modern UI with Tailwind CSS and gradient themes
 - **Real-time Feedback**: Instant form validation and status updates
